@@ -1,0 +1,17 @@
+/*.navbar-nav li{
+	text-align: right !important;
+}*/
+/*Above code doesn't work with Navbar coz it is a flexbox now and it doesn't apply to it*/
+
+.navbar-brand{
+	font-size: 20px;
+}
+.navbar-nav li{
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+.navbar-nav li:hover{
+	text-decoration: underline;
+	color: black;
+}
