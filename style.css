@@ -3,15 +3,75 @@
 }*/
 /*Above code doesn't work with Navbar coz it is a flexbox now and it doesn't apply to it*/
 
+/*Navbar Styling*/
 .navbar-brand{
 	font-size: 20px;
 }
 .navbar-nav li{
 	font-size: 20px;
 	margin-right: 20px;
+	color: rgb(128, 0, 0) !important;
 }
 
 .navbar-nav li:hover{
 	text-decoration: underline;
-	color: black;
+}
+
+.navbar .navbar-nav li a{
+	color: rgb(128, 0, 0) !important;
+}
+
+/*Carousel Styling*/
+.fill{
+	background-color: rgb(128, 0, 0);
+	width: 1670px;
+	height: 840px;
+	z-index: 20;
+}
+
+.main-text {
+    color: white;
+    position: absolute;
+    top: 200px;
+    width: 96.6667%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.main-text h1{
+	
+	font-size: 150px;
+	text-align: left;
+}
+
+.carousel-control-prev{
+	opacity: 0.025;
+	color: white;
+}
+
+.carousel-control-next{
+	opacity: 0.025;
+	color: white;
+}
+
+.btn-outline-dark{
+	color: white !important;
+	border: 1px solid white !important; 
+	margin-left: 20px;	
+}
+
+.btn-outline-danger{
+	color: white  !important;
+	border: 1px solid white !important; 
+	margin-left: 20px;	
+	
+}
+
+.btn-outline-danger:hover{
+	color: white !important;
+	background-color: white !important;
+	border: 1px solid white !important; 
+
+	margin-left: 20px;	
+	
 }
